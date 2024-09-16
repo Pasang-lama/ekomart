@@ -12,6 +12,11 @@ a {
 }
 
 
+img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
 
 .container {
   width: 1320px;
@@ -188,7 +193,6 @@ header .nav-bar .location span{
 .product-category{
   border: 1px solid rgb(173, 173, 173);
   border-radius: 5px;
-  display:flex ;
   padding: 0px;
 }
 
@@ -197,7 +201,6 @@ header .nav-bar .location span{
 }
 .product-category .product-category-card {
   padding: 20px;
-  width: 200px;
   text-align: center;
   border-right:  1px solid rgb(173, 173, 173);
 }
@@ -213,4 +216,48 @@ header .nav-bar .location span{
   color: var(--secondary-color);
   font-size: 14px;
   text-transform: uppercase;
+}
+
+.product-category .product-category-card  img{
+  height: 100px;
+  object-fit: contain;
+}
+
+
+
+.offers-section .offer-cards{
+ background-image: url("../images/01.webp");
+ background-repeat: no-repeat;
+ background-size: cover;
+ padding:  40px;
+ border-radius: 5px;
+}
+
+.offers-section .offer-cards img{
+  height: 180px;
+  object-fit: contain;
+}
+
+.offers-section .offer-cards h2{
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 37px;
+  color: var(--dark-theme);
+}
+
+.offers-section .offer-cards h2 span{
+  font-weight: 700;
+}
+.offers-section .offer-cards .price{
+  margin-top: 20px;
+  color: var(--secondary-color);
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.offers-section .offer-cards .price span{
+  display: block;
+  font-size: 24px;
+  font-weight: 400;
+
 }
