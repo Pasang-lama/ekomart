@@ -5,14 +5,12 @@
   font-family: "Barlow", sans-serif;
 }
 
-
 a {
   text-decoration: none;
   color: inherit;
 }
 
-
-img{
+img {
   height: 100%;
   width: 100%;
   object-fit: cover;
@@ -24,7 +22,6 @@ img{
   margin: 0px auto;
 }
 
-
 .d-flex {
   display: flex;
   justify-content: space-between;
@@ -32,23 +29,20 @@ img{
   gap: 10px;
 }
 
-ul{
-    list-style: none;
+ul {
+  list-style: none;
 }
-ul li{
-    display: inline-block;
+ul li {
+  display: inline-block;
 }
 
-
-.margin-top{
+.margin-top {
   margin-top: 80px;
 }
 
-:root{
-
-    --secondary-color: #629D23;
-    --dark-theme :#2C3C28;
-
+:root {
+  --secondary-color: #629d23;
+  --dark-theme: #2c3c28;
 }
 
 /* header css  */
@@ -56,7 +50,6 @@ header {
   background-color: var(--dark-theme);
   color: white;
 }
-
 
 header ul li {
   margin-right: 10px;
@@ -67,45 +60,43 @@ header .top-header {
   border-bottom: 1px solid rgb(184, 184, 184);
 }
 
-
-header .search-box{
-    background-color: white;
-    border-radius: 5px;
-    overflow: hidden;
+header .search-box {
+  background-color: white;
+  border-radius: 5px;
+  overflow: hidden;
 }
 
-header .search-box .category{
-    color: black;
-    padding: 10px;
+header .search-box .category {
+  color: black;
+  padding: 10px;
 }
 
-header .search-box form{
-    border: 1px solid var(--secondary-color);
-    padding: 10px;
+header .search-box form {
+  border: 1px solid var(--secondary-color);
+  padding: 10px;
 }
 
-header .search-box form input{
-    height: 100%;
-    border: none;
+header .search-box form input {
+  height: 100%;
+  border: none;
 }
 
-header .search-box button{
-    background-color: var(--secondary-color);
-    padding: 10px 20px;
-    border-radius: 4px;
-    border: none;
-    color: white;
+header .search-box button {
+  background-color: var(--secondary-color);
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: none;
+  color: white;
 }
-header .action-btn a{
-  padding: 20px ;
+header .action-btn a {
+  padding: 20px;
   background-color: white;
   color: black;
   border-radius: 5px;
   position: relative;
-
 }
 
-header .action-btn a span{
+header .action-btn a span {
   background-color: var(--secondary-color);
   padding: 5px 8px;
   border-radius: 50%;
@@ -116,95 +107,89 @@ header .action-btn a span{
   left: 25px;
 }
 
-header .action-btn a i{
+header .action-btn a i {
   padding-right: 10px;
 }
 
-
-header .nav-bar{
+header .nav-bar {
   background-color: var(--secondary-color);
   padding-block: 10px;
 }
 
-header .nav-bar .location{
+header .nav-bar .location {
   font-size: 14px;
 }
-header .nav-bar .location span{
+header .nav-bar .location span {
   font-size: 16px;
   font-weight: 500;
   padding-left: 10px;
 }
 
-
 /* banner  */
 
-.banner-section{
+.banner-section {
   background-image: url("../images/02.webp");
   background-repeat: no-repeat;
   background-size: cover;
-  padding:  100px;
+  padding: 100px;
   border-radius: 10px;
 }
 
-.banner-content{
+.banner-content {
   width: 45%;
 }
-.banner-section .tagline{
+.banner-section .tagline {
   color: var(--secondary-color);
   font-size: 14px;
   font-weight: 500;
 }
-.banner-section h1{
+.banner-section h1 {
   font-size: 36px;
   color: var(--dark-theme);
 }
 
-.banner-section p{
+.banner-section p {
   font-size: 18px;
   color: rgb(39, 39, 39);
   margin: 20px 0px;
 }
 
-.banner-section .custome-btn{
+.banner-section .custome-btn {
   background-color: var(--secondary-color);
   color: white;
-  padding:  20px;
-  border-radius: 5px ;
+  padding: 20px;
+  border-radius: 5px;
   font-size: 16px;
   font-weight: 500;
 }
-.banner-section .custome-btn i{
+.banner-section .custome-btn i {
   padding-left: 5px;
 }
 
-.banner-section .action-btn-wrapper{
+.banner-section .action-btn-wrapper {
   justify-content: flex-start;
   align-items: flex-end;
   gap: 50px;
   margin-top: 25px;
 }
 
-.banner-section .action-btn-wrapper .price span{
+.banner-section .action-btn-wrapper .price span {
   font-size: 36px;
   color: var(--secondary-color);
   font-weight: 600;
 }
 
-.product-category{
+.product-category {
   border: 1px solid rgb(173, 173, 173);
   border-radius: 5px;
   padding: 0px;
 }
 
-
-
-
-.product-category-card{
+.product-category-card {
   position: relative;
 }
 
-
-.product-category-card::after{
+.product-category-card::after {
   content: "";
   height: 4px;
   width: 0%;
@@ -215,72 +200,164 @@ header .nav-bar .location span{
   transition: all 0.3s linear;
 }
 
-.product-category-card:hover::after{
+.product-category-card:hover::after {
   width: 100%;
 }
 
-.product-category .product-category-card img{
+.product-category .product-category-card img {
   height: 80px;
 }
 .product-category .product-category-card {
   padding: 20px;
   text-align: center;
-  border-right:  1px solid rgb(173, 173, 173);
+  border-right: 1px solid rgb(173, 173, 173);
 }
 
-.product-category .product-category-card .title{
+.product-category .product-category-card .title {
   font-size: 14px;
   text-align: center;
   color: var(--dark-theme);
   font-weight: 700;
   margin: 10px 0px;
 }
-.product-category .product-category-card span{
+.product-category .product-category-card span {
   color: var(--secondary-color);
   font-size: 14px;
   text-transform: uppercase;
 }
 
-.product-category .product-category-card  img{
+.product-category .product-category-card img {
   height: 100px;
   object-fit: contain;
 }
 
-
-
-.offers-section .offer-cards{
- background-image: url("../images/01.webp");
- background-repeat: no-repeat;
- background-size: cover;
- padding:  40px;
- border-radius: 5px;
+.offers-section .offer-cards {
+  background-image: url("../images/01.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40px;
+  border-radius: 5px;
 }
 
-.offers-section .offer-cards img{
+.offers-section .offer-cards img {
   height: 180px;
   object-fit: contain;
 }
 
-.offers-section .offer-cards h2{
+.offers-section .offer-cards h2 {
   font-weight: 400;
   font-size: 30px;
   line-height: 37px;
   color: var(--dark-theme);
 }
 
-.offers-section .offer-cards h2 span{
+.offers-section .offer-cards h2 span {
   font-weight: 700;
 }
-.offers-section .offer-cards .price{
+.offers-section .offer-cards .price {
   margin-top: 20px;
   color: var(--secondary-color);
   font-weight: 700;
   font-size: 30px;
 }
 
-.offers-section .offer-cards .price span{
+.offers-section .offer-cards .price span {
   display: block;
   font-size: 24px;
   font-weight: 400;
-
 }
+
+.weeky-best-seller {
+  background-color: #f3f4f6;
+  padding-block: 100px;
+}
+
+.section-heading {
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--dark-theme);
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.section-heading::before {
+  content: "";
+  height: 30px;
+  width: 30px;
+  background-color: #eabc5e;
+  border-radius: 50%;
+  display: block;
+}
+.weeky-best-seller .wrapper {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+}
+
+.grocery-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.grocery-card .card-thumbnail {
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+}
+
+.grocery-card .card-details {
+  text-align: center;
+  padding-block: 10px;
+}
+
+.grocery-card .card-details .card-title {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.grocery-card .card-details .price {
+  color: var(--secondary-color);
+  margin-top: 5px;
+  font-weight: 500;
+}
+
+.grocery-card .card-thumbnail .hover-content {
+  background-color: var(--secondary-color);
+  padding: 10px;
+  border-radius: 10px 10px 0px 0px;
+  position: absolute;
+  bottom: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  transition: all 0.3s linear;
+}
+
+.grocery-card:hover .hover-content {
+  bottom: 0px;
+}
+.grocery-card .card-thumbnail .hover-content ul li {
+  height: 30px;
+  width: 30px;
+  border: 1px dotted rgb(254, 254, 254);
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.grocery-card .card-thumbnail .hover-content ul li:hover {
+  background-color: white;
+  color: var(--secondary-color);
+}
+.grocery-card .card-thumbnail .hover-content ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+
