@@ -27,6 +27,7 @@ img {
   justify-content: space-between;
   align-items: center;
   gap: 10px;
+  flex-wrap: wrap;
 }
 
 ul {
@@ -330,16 +331,19 @@ header .nav-bar .location span {
   padding: 10px;
   border-radius: 10px 10px 0px 0px;
   position: absolute;
-  bottom: -50px;
+  bottom: 0px;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-50%) rotateX(90deg);
   width: 80%;
   transition: all 0.3s linear;
+  transform-origin: bottom;
 }
 
 .grocery-card:hover .hover-content {
-  bottom: 0px;
+  transform: translateX(-50%) rotateX(0deg);
 }
+
+
 .grocery-card .card-thumbnail .hover-content ul li {
   height: 30px;
   width: 30px;
@@ -361,3 +365,10 @@ header .nav-bar .location span {
 }
 
 
+.side-nav{
+background-color: transparent;
+color: white;
+border: 1px solid white;
+padding: 10px 20px;
+display: none;
+}
